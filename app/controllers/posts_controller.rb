@@ -9,3 +9,7 @@ end
 def create
   @post = Post.new
 end
+
+def destroy
+  @post.destroy
+end

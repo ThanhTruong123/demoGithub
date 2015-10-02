@@ -13,5 +13,8 @@ end
 def destroy
   @post.destroy
   abc
-  def
+  def method_name
+    
+  end
+  end
 end

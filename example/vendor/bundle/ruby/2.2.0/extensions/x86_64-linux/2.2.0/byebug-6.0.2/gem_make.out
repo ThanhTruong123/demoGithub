@@ -1,0 +1,15 @@
+/home/asiantech/.rvm/rubies/ruby-2.2.2/bin/ruby -r ./siteconf20150927-15445-xy4dr9.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling context.c
+compiling byebug.c
+compiling locker.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20150927-15445-1we31xe/byebug

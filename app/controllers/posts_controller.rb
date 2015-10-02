@@ -13,4 +13,5 @@ end
 def destroy
   @post.destroy
   abc
+  def
 end
